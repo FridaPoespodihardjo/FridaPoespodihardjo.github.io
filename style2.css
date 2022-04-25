@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 20px;
+    background-color: darkolivegreen;
+}
+
+main{
+    text-align: center;
+}
+
+main article {
+    background-color: blue; 
+    text-align: center;
+    padding-block: 4%;
+}
+
+main article a{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+main img{
+    width: 80%;
+}
+
+main p{
+    color: #1b2832;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+main h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+
+main h2{
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+footer{
+    text-align: center; 
+}
+
+footer p{
+    color: white;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+details[role=list]{
+    height: calc(1rem * var(--line-height) + var(--form-element-spacing-vertical) * 2 + var(--border-width) * 2);
+    padding: var(--form-element-spacing-vertical) var(--form-element-spacing-horizontal);
+    background-color: rgb(172, 48, 48);
+    color: #1b2832;
+    line-height: inherit;
+    cursor: pointer;
+    transition: background-color var(--transition),border-color var(--transition),color var(--transition),box-shadow var(--transition);
+    font-size: 35px;
+}
+
+details summary[aria-haspopup="listbox"]{
+    color: #1b2832;
+}

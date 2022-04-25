@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+body img{
+    width: 80%;
+}
+header{
+    background-color: coral;
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}
+header a{
+    padding-right: 300px;
+}
+header h1{
+    /* schriftart */
+    padding-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(114, 54, 32);
+    font-size: 60px;
+}
+header img{
+    border-radius: 200px ;
+    width: 500px;
+    border: 10px solid white;
+}
+main{
+    margin: 0 auto;
+    background-color: rgb(114, 54, 32);
+}
+main h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: coral;
+}
+
+.grid{
+    border: 10px crimson;
+}
+div article {
+    background-color: rgb(188, 70, 180); 
+    text-align: center;
+    padding-block: 4%;
+}
+div article a{
+    font-size: 60px;
+    color: aliceblue;
+}
+div article a:hover{
+    color: rgb(240, 107, 12);
+}
+footer{
+    background-color: coral;
+    text-align: center;  
+}
+footer p{
+    color: white;
+    margin: 0;
+    padding-bottom: 0;
+}
+
